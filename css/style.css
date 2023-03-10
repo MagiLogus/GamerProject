@@ -1,3 +1,5 @@
+/* Mobile First */
+
 @font-face {
     font-family: "titilium web";
     src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Regular.ttf);
@@ -17,8 +19,59 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: antiquewhite;
 }
 
-/* Mobile First */
+body {
+color: white;
+background-color: beige;
+}
 
+.layout_grid {
+width: 90%;
+margin: 0 auto;
+height: 100%;
+}
+
+.alignment_between_center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* header-top mobile */
+
+header {
+    height: 60px;
+    background-color: #1b1426;
+}
+
+header .header_top {
+    display: none;
+}
+
+/* header-botton mobile */
+
+header .header_botton {
+    height: 100%;
+}
+
+header .header_botton .logo_icon {
+    width: 86px;
+    height: 25px;
+}
+
+header .header_botton nav {
+   position: fixed;
+   top: 60px;
+   left: 0;
+   width: 80vw;
+   height: calc(100vw - 60px);
+   display: flex;
+   flex-direction: column;
+   border: 1px solid white;
+   background-color: transparent;
+}
+
+header .header_botton .user_menu {
+    display: none;
+}
