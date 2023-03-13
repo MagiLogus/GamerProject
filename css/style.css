@@ -38,6 +38,10 @@ body {
     align-items: center;
 }
 
+.showMenu {
+    left: 0;
+}
+
 /* header-top mobile */
 
 header {
