@@ -32,10 +32,10 @@
         </div>
         <div class="header_botton">
             <div class="layout_grid alignment_between_center">
-                <img class="menu_icon" src="assets/icons mobile/Vectormenu icon.svg" alt="menu icon">
+                <img onclick="showmenu" class="menu_icon" src="assets/icons mobile/Vectormenu icon.svg" alt="menu icon">
                 <img class="logo_icon" src="assets/image/logotipo-gamerlogo image .svg" alt="logo icon">
                 <!-- <img class="menu_icon_user" src="assets/icons mobile/Vectoruser icon (1).svg" alt="user icon"> -->
-                <nav class="menu alignment_between_center">
+                <nav id="menu" class="menu alignment_between_center">
                     <a href="">Home</a>
                     <a href="">Players</a>
                     <a href="">Teams</a>
@@ -43,14 +43,14 @@
 
                     <!-- visivel apenas no mobile -->
 
-                    <div class="phone">
+                    <a class="phone">
                         <img src="assets/icons mobile/icone_telefonephone icon.svg" alt="">
                         <span>(55) 00000-0000</span>
-                    </div>
-                    <div class="email">
+                    </a>
+                    <a class="email">
                         <img src="assets/icons mobile/icone_emailemail icon.svg" alt="">
                         <span>paulo@gmail.com.br</span>
-                    </div>
+                    </a>
 
                     <div class="social_midia">
                         <a href=""><img src="assets/icons mobile/Vectorface icon.svg" alt="facebook icon"></a>
@@ -74,6 +74,11 @@
     <main></main>
 
     <footer></footer>
+    <script>
+        function showmenu() {
+            document.getElementById ("menu").classList.toggle("showmenu");
+        }
+    </script>
 </body>
 
 </html>
