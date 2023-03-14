@@ -32,7 +32,7 @@
         </div>
         <div class="header_botton">
             <div class="layout_grid alignment_between_center">
-                <img onclick="showmenu" class="menu_icon" src="assets/icons mobile/Vectormenu icon.svg" alt="menu icon">
+                <img onclick="showMenu()" class="menu_icon" src="assets/icons mobile/Vectormenu icon.svg" alt="menu icon">
                 <img class="logo_icon" src="assets/image/logotipo-gamerlogo image .svg" alt="logo icon">
                 <!-- <img class="menu_icon_user" src="assets/icons mobile/Vectoruser icon (1).svg" alt="user icon"> -->
                 <nav id="menu" class="menu alignment_between_center">
@@ -59,10 +59,10 @@
                     </div>
                 </nav>
 
-                <img class="menu_icon_mobile" src="assets/icons mobile/Vectoruser icon.svg" alt="menu icon">
+                <img onclick="showMenuUser()" class="menu_icon_mobile" src="assets/icons mobile/Vectoruser icon.svg" alt="menu icon">
                
-                <div class="user_menu">
-                    <a href=""><img src="assets/icons mobile/Vectoruser icon.svg" alt="profile icon"></a>
+                <div id="user_menu" class="user_menu alignment_between_center">
+                    <a href=""><img src="assets/icons mobile/Vectoruser icon (1).svg" alt="profile icon"></a>
                     <a href=""><img src="assets/icons mobile/Vectorshopping icon.svg" alt="shoppings icon"></a>
                     <a href=""><img src="assets/icons mobile/Icones_headersearch icon.svg" alt="search icon"></a>
                 </div>
@@ -71,12 +71,22 @@
 
     </header>
 
-    <main></main>
+    <main>
+        <section class="banner_cont" >
+            <h1>Project Name</h1>
+            <a href="" class="Button_about"></a>
+
+        </section>
+    </main>
 
     <footer></footer>
     <script>
         function showMenu() {
-            document.getElementById ("menu").classList.toggle("showMenu");
+            document.getElementById("menu").classList.toggle("showMenu");
+        }
+
+        function showMenuUser() {
+            document.getElementById("user_menu").classList.toggle("showMenuUser");
         }
     </script>
 </body>
