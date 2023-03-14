@@ -163,13 +163,14 @@ header .header_botton .user_menu > a {
 /* Banner */
 
 main .banner_cont {
-    position: relative;
-    top: 60px;
+    margin-top: 60px;
     background-image: url(../assets/image/Banner\ Image\ Frame.png);
     width: 100%;
     height: 606px;
     background-position: center center;
     background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
 main .banner_cont h1 {
@@ -180,4 +181,89 @@ main .banner_cont h1 {
     font-size: 40px;
     font-weight: 900;
     filter: drop-shadow(0px 0px 7px #FD4255);
+    padding-top: 10px;
 }
+
+main .banner_cont a {
+    background-color: #f9aa01;
+    width: 171px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    color: #1b1426;
+    text-decoration: none;
+    font-family: "titilium web";
+    font-weight: 700;
+    font-size: 24px;
+    position: absolute;
+    bottom: 88px;
+    left: 102px;
+}
+
+/* Last Games/Sesion */
+
+main .lasts_cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 590px;
+    background-color: #1b1426;
+    width: 100%;
+}
+
+main .box_most {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 335.75px;
+    height: 189px;
+    background-image: url(../assets/image/popular\ image.png);
+    position: relative;
+}
+
+main .translucid_bar {
+    position: absolute;
+    bottom: 0;
+    width: 335px;
+    height: 50px;
+    background-image:linear-gradient(to right bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0)) ;
+    filter: blur(0 0 4px);
+    border-radius: 8px;
+    border-image:linear-gradient(to right bottom, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.2)) ;
+}
+
+main .form {
+    width: 160px;
+    height: 40px;
+    background-color: #f9aa01;
+    transform: skew(-40deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 5px;
+    left: 35px;
+  }
+
+main .form span {
+    font-family: "titilium web";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24.34px;
+    color: #000000;
+    transform: skew(40deg);
+  }
+
+  main .box_last {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 335.75px;
+    height: 189px;
+    background-image: url(../assets/image/lasts\ Image.png);
+    position: relative;
+}
+  
