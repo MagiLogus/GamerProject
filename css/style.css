@@ -1,19 +1,10 @@
 /* Mobile First */
 
-@font-face {
-    font-family: "titilium web";
-    src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Regular.ttf);
-}
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
 
-@font-face {
-    font-family: "quick sand";
-    src: url(../assets/fonts/Quicksand/Quicksand-VariableFont_wght.ttf);
-}
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
-@font-face {
-    font-family: "inter";
-    src: url(../assets/fonts/Inter/Inter-VariableFont_slnt\,wght.ttf);
-}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 * {
     margin: 0;
@@ -80,7 +71,7 @@ header .header_botton nav {
     border-style: solid;
     justify-content: space-between;
     padding-bottom: 20px;
-    z-index: 2;
+    z-index: 999;
     transition: 2s;
 }
 
@@ -92,7 +83,7 @@ header .header_botton nav > a {
     padding: 38.5px 0;
     text-decoration: none;
     font-size: 15px;
-    font-family: "Inter";
+    font-family: 'Inter';
     font-weight: 400;
 }
 
@@ -137,14 +128,13 @@ header .header_botton .user_menu {
     height: 45vw;
     display: flex;
     flex-direction: column;
-    background-image: linear-gradient(to right bottom, rgb(27, 20, 38, 0.7), rgba(27, 20, 38, 0.4));
-    backdrop-filter: blur(45px);
-    border-image: linear-gradient(to right bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
-    border-width: 1px;
-    border-style: solid;
+    background-image: linear-gradient(168.78deg, #1B1426 0%, rgba(27, 20, 38, 0.7) 0.01%, rgba(27, 20, 38, 0.4) 99.03%);
+    backdrop-filter: blur(5px);
+    border-image-source: linear-gradient(168.61deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 99.04%);
+    border: 1px solid;
     justify-content: space-between;
     padding-bottom: 20px;
-    z-index: 3;
+    z-index: 999;
     transition: 1s;
 }
 
@@ -178,11 +168,12 @@ main .banner_cont h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: "titilium web";
+    font-family: 'Titillium Web';
     font-size: 40px;
     font-weight: 900;
-    filter: drop-shadow(0px 0px 7px #FD4255);
+    text-shadow: 0px 0px 7px #FD4255;
     padding-top: 10px;
+    line-height: 61px;
 }
 
 main .banner_cont a {
@@ -195,7 +186,7 @@ main .banner_cont a {
     border-radius: 8px;
     color: #1b1426;
     text-decoration: none;
-    font-family: "titilium web";
+    font-family: 'Titillium Web';
     font-weight: 700;
     font-size: 24px;
     position: absolute;
@@ -230,10 +221,11 @@ main .translucid_bar {
     bottom: 0;
     width: 335px;
     height: 50px;
-    background-image:linear-gradient(to right bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0)) ;
-    filter: blur(0 0 4px);
+    background: linear-gradient(91.23deg, rgba(239, 239, 239, 0.6) 0.79%, rgba(239, 239, 239, 0.1) 100%), linear-gradient(91.26deg, rgba(255, 255, 255, 0.6) 0.83%, rgba(255, 255, 255, 0.2) 100%);
+    backdrop-filter: blur(2px);
     border-radius: 8px;
-    border-image:linear-gradient(to right bottom, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.2)) ;
+    border: 1px solid;
+    border-image-source: linear-gradient(91.26deg, rgba(255, 255, 255, 0.6) 0.83%, rgba(255, 255, 255, 0.2) 100%);
 }
 
 main .form {
@@ -250,7 +242,7 @@ main .form {
   }
 
 main .form span {
-    font-family: "titilium web";
+    font-family: 'Titillium Web';
     font-weight: 700;
     font-size: 16px;
     line-height: 24.34px;
@@ -281,9 +273,9 @@ main .programer_cont {
 }
 
 main .programer_cont h2 {
-    width: 336px;
+    width: 370px;
     height: 27px;
-    font-family: "titilium web";
+    font-family: 'Titillium Web';
     font-size: 18px;
     font-weight: 900;
     color: #1b1426;
@@ -296,10 +288,11 @@ main .programer_cont hr {
     position: absolute;
     top: 146px ;
     width: 204px;
-    border-bottom: 2px solid #1b1426;
+    height: 0;
+    border: 2px solid #1b1426;
 }
 
-main .Character_killjoy {
+main .character_killjoy {
     background-image: url(../assets/image/kiljoy.png);
     width: 314px;
     height: 511px;
@@ -328,19 +321,20 @@ main .text_box {
 
 main .text_box h3 {
     color: #ffffff;
-    font-family: "titilium web";
+    font-family: 'Titillium Web';
     font-style: normal;
     font-weight: 900;
     font-size: 18px;
     line-height: 27px;
     text-shadow: 0px 0px 6px #c6a5e6;
-    width: 179px;
+    width: 200px;
     height: 27px;
     text-align: center;
+    text-transform: uppercase;
 }
 
 main .text_box p {
-    font-family: "quick sand";
+    font-family: 'Quicksand';
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
@@ -350,5 +344,138 @@ main .text_box p {
     width: 176px;
     height: 64px;
 }
+
+main .character_jinks {
+    background-image: url(../assets/image/loljinx.png);
+    width: 322px;
+    height: 428px;
+    position: absolute;
+    top: 869px;
+    left: 33px;
+}
+
+main .text_box_teacher {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    width: 231px;
+    height: 300px;
+    border-radius: 8px;
+    border-image:linear-gradient(to left bottom, rgba(255, 255, 255, 0.97), rgba(27, 20, 38, 0));
+    border-width: 1px;
+    border-style: solid;
+    background: linear-gradient(145.9deg, rgba(122, 49, 236, 0.2) 0%, rgba(47, 7, 109, 0.83) 98.56%);
+    position: absolute;
+    top: 111px;
+    left: -13px;
+    backdrop-filter: blur(7.5px);
+}
+
+main .text_box_teacher h3 {
+    color: #ffffff;
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 27px;
+    text-shadow: 0px 0px 6px #c6a5e6;
+    width: 200px;
+    height: 27px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+main .text_box_teacher p {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: justify;
+    color: #ffffff;
+    width: 162px;
+    height: 121px;
+}
+
+/* News Session */
+
+main .news_cont {
+    background-image: url(../assets/image/backgrund_notícias.png), linear-gradient(119.63deg, rgba(45, 24, 77, 0) 0%, rgba(27, 20, 38, 0.55) 99.45%);;
+    width: 100%;
+    height: 3675px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    backdrop-filter: blur(4px);
+    position: relative;
+}
+
+main .news_cont h4 {
+    width: 76px;
+    height: 27px;
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 27px;
+    color: #ffffff;
+    margin-top: 46px;
+}
+
+main .news_cont hr {
+    position: absolute;
+    top: 108px;
+    width: 204px;
+    height: 0px;
+    border: 2px solid #F9AA01;
+}
+
+main .box_news {
+    width: 335px;
+    height: 387px;
+    background: linear-gradient(141.58deg, rgba(37, 26, 52, 0.34) 0%, rgba(5, 1, 12, 0.79) 98.48%);
+    backdrop-filter: blur(3px);
+    border-radius: 8px;
+    position: relative ;
+    top: 226px;
+}
+
+main .news_img {
+    width: 335px;
+    height: 174px;
+    border-radius: 8px 8px 0px 0px;
+}
+
+main .box_news h5 {
+position: absolute;
+left: 7.72%;
+right: 41.53%;
+top: 49.1%;
+bottom: 41.34%;
+font-family: 'Titillium Web';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 37px;
+color: #FFFFFF;
+}
+
+main .box_news p {
+position: absolute;
+left: 7.72%;
+right: 7.72%;
+top: 62.79%;
+bottom: 5.43%;
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+text-align: justify;
+color: #FFFFFF;
+}
+
+
 
   
