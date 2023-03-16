@@ -761,6 +761,7 @@ footer .footer_cont {
     display: flex;
     align-items: center;
     flex-direction: column;
+    position: relative;
 }
 
 footer .logo_footer {
@@ -778,7 +779,6 @@ footer .footer_cont span {
     text-align: justify;
     line-height: 17.5px;
     color: #ffffff; 
-    margin-top: 41px;
 }
 
 footer .footer_cont .social_cont {
@@ -797,6 +797,43 @@ footer .footer_cont .icon_form {
     border-radius: 8px;
     padding-top: 7px;
     justify-content: center;
+    margin-top: 169px;
+}
+
+footer .footer_nave {
+    width: 326.71px;
+    height: 155.05px;
+    position: absolute;
+    top: 483px;
+    
+}
+
+footer .footer_nave h1 {
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 46px;
+    color: #ffffff;
+}
+
+footer .footer_nave hr {
+    border: 2px solid #f9aa01;
+    width: 112.96px;
+}
+
+footer .footer_nave .footer_links {
+    width: 320px;
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .footer_nave .footer_links li {
+    list-style: none;
+    border-left: 2px solid #f9aa01;
+    width: 14.4px;
 }
 
 
