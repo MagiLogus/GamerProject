@@ -801,11 +801,10 @@ footer .footer_cont .icon_form {
 }
 
 footer .footer_nave {
-    width: 326.71px;
-    height: 155.05px;
+    width: 326px;
+    height: 155px;
     position: absolute;
     top: 483px;
-    
 }
 
 footer .footer_nave h3 {
@@ -824,20 +823,26 @@ footer .footer_nave hr {
 
 footer .footer_links ul {
     list-style: none;
+    width: 100%;
+    height: 61.87px;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    
+    flex-direction: row;
+    align-self: center;
     position: absolute;
-    gap: 52px;
-    margin-top: 43.08px;
+    margin-top: 43.08px;  
+}
 
+footer .footer_links li {
+    width: 103.66px;
+    height: 24px;
+    display: flex;
+    align-items: center;
 }
 
 footer .footer_links li::before {
     content: "\2015";
     color: #f9aa01;
-    width: 14px;
     padding-right: 12px;
 }
 
@@ -849,10 +854,6 @@ footer .footer_links ul a {
     text-align: justify;
     color: #ffffff;
     text-decoration: none;
-    
-   
-    
-
 }
 
 
