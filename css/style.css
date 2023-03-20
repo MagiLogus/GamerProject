@@ -755,7 +755,7 @@ footer .footer_cont {
     width: 100%;
     height: 1531px;
     background: linear-gradient(to bottom, #000002 0%, rgba(67, 3, 99, 0.03) 100%), url(../assets/image/backgroung_footer.png);
-    background-size: 375px 212px, auto;
+    background-size: 100% 212px, auto;
     background-position: center 0%;
     background-repeat: no-repeat;
     display: flex;
