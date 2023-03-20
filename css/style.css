@@ -12,11 +12,6 @@
     box-sizing: border-box;
 }
 
-body {
-    color: white;
-    background-color: beige;
-}
-
 .layout_grid {
     width: 90%;
     margin: 0 auto;
@@ -123,7 +118,7 @@ header .header_botton .social_midia {
 header .header_botton .user_menu {
     position: fixed;
     top: 60px;
-    right: -66px;
+    right: -80px;
     width: 9vh;
     height: 45vw;
     display: flex;
@@ -165,6 +160,7 @@ main .banner_cont {
 }
 
 main .banner_cont h1 {
+    color: #ffffff;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -409,6 +405,9 @@ main .news_cont {
     align-items: center;
     backdrop-filter: blur(4px);
     position: relative;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 main .news_cont h4 {
@@ -755,7 +754,7 @@ footer .footer_cont {
     width: 100%;
     height: 1531px;
     background: linear-gradient(to bottom, #000002 0%, rgba(67, 3, 99, 0.03) 100%), url(../assets/image/backgroung_footer.png);
-    background-size: 100% 212px, auto;
+    background-size: 100% 212px, 100% 1531px;
     background-position: center 0%;
     background-repeat: no-repeat;
     display: flex;
@@ -944,12 +943,13 @@ footer .newsletter_box {
 }
 
 footer .newsletter_box input {
+    background: transparent;
+    border: none;
+    outline: none;
     width: 333px;
     height: 40px;
     border-radius: 8px;
-    background: linear-gradient(91.13deg, rgba(239, 239, 239, 0.6) 0%, rgba(239, 239, 239, 0.1) 100%), linear-gradient(91.13deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
-    border: 1px solid;
-    border-image: linear-gradient(91.13deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+    background-image: linear-gradient(90deg, #BBAACC 0%, rgba(217, 217, 217, 0) 103.86%);
     font-family: 'Titillium Web';
     font-style: normal;
     font-weight: 400;
@@ -957,7 +957,6 @@ footer .newsletter_box input {
     line-height: 24.34px;
     color: #ffffff;
     text-align: justify;
-    
     
 }
 
@@ -969,7 +968,7 @@ footer .newsletter_box ::placeholder {
     color: #ffffff;
     text-align: justify;
     padding-left: 18px;
-    backdrop-filter: blur(6px);
+    backdrop-filter: blur(3px);
 }
 
 footer .newsletter_box button {
@@ -981,6 +980,7 @@ footer .newsletter_box button {
     border-radius: 8px;
     background: rgba(249, 170, 1, 1);
     font-family: 'Titillium Web';
+    border: none;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -1018,8 +1018,32 @@ footer .copyright span {
     text-align: center;
 }
 
+/* Desktop Version */
+
+@media screen and (min-width: 1200px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    .layout_grid {
+        width: 100%;
+        margin: 0 auto;
+        max-width: 1200px;
+    }
+    
+    .alignment_between_center {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
 
 
+    
+}
 
 
   

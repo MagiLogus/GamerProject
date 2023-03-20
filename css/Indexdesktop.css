@@ -1,0 +1,26 @@
+/* Desktop Version */
+
+@media screen and (min-width: 1200px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    .layout_grid {
+        width: 100%;
+        margin: 0 auto;
+        max-width: 1200px;
+    }
+    
+    .alignment_between_center {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+
+
+    
+}
