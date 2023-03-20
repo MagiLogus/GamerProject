@@ -856,10 +856,167 @@ footer .footer_links ul a {
     text-decoration: none;
 }
 
+footer .address {
+    width: 326px;
+    height: 257.5px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 727px;
+    justify-content: flex-start;
+    
+}
 
+footer .address h3 {
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 46px;
+    color: #ffffff;
+}
 
+footer .address hr {
+    border: 2px solid #f9aa01;
+    width: 102px;
+}
 
+footer .address_box {
+    width: 289px;
+    height: 164.32px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+}
 
+footer .address_box h4 {
+    font-family: 'Titillium Web';
+    font-style: bold;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24.34px;
+    color: #f9aa01;
+    text-align: justify;
+}
+
+footer .address_box span {
+    font-family: 'Titillium Web';
+    font-style: bold;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24.34px;
+    color: #ffffff;
+    text-align: justify;
+}
+
+footer .newsletter {
+    width: 333px;
+    height: 201px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 1104px;
+}
+
+footer .newsletter h3 {
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 46px;
+    color: #ffffff;
+}
+
+footer .newsletter hr {
+    border: 2px solid #f9aa01;
+    width: 102px;
+}
+
+footer .newsletter_box {
+    width: 333px;
+    height: 94.45px;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    bottom: 0;
+    gap: 10px;
+}
+
+footer .newsletter_box input {
+    width: 333px;
+    height: 40px;
+    border-radius: 8px;
+    background: linear-gradient(91.13deg, rgba(239, 239, 239, 0.6) 0%, rgba(239, 239, 239, 0.1) 100%), linear-gradient(91.13deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+    border: 1px solid;
+    border-image: linear-gradient(91.13deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24.34px;
+    color: #ffffff;
+    text-align: justify;
+    
+    
+}
+
+footer .newsletter_box ::placeholder {
+    font-family: 'Titillium Web';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24.34px;
+    color: #ffffff;
+    text-align: justify;
+    padding-left: 18px;
+    backdrop-filter: blur(6px);
+}
+
+footer .newsletter_box button {
+    width: 333px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(249, 170, 1, 1);
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36.5px;
+    color: rgba(27, 20, 38, 1);
+}
+
+footer .icon_form_footer {
+    width: 40px;
+    height: 40px;
+    background-color: #f9aa01;
+    display: flex;
+    border-radius: 8px;
+    padding-top: 7px;
+    justify-content: center;
+    margin-top: 169px;
+    position: absolute;
+    top: 1200px;
+    left: 309px;
+}
+
+footer .copyright {
+    width: 280px;
+    height: 26px;
+    position: absolute;
+    bottom: 40px;
+}
+
+footer .copyright span {
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24.34px;
+    text-align: center;
+}
 
 
 
