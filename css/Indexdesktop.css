@@ -1,6 +1,6 @@
 /* Desktop Version */
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 992px) {
 
     * {
         margin: 0;
@@ -19,8 +19,468 @@
         justify-content: space-between;
         align-items: center;
     }
+
+    /* header-top mobile */
+
+    header {
+        height: 140px;
+        position: relative;
+        z-index: 0;
+    }
+
+    header .header_top {
+        width: 100%;
+        height: 49.3px;
+        display: flex;
+        border-bottom: 1px solid #f9aa01;
+    }
+
+    header .header_top .contact {
+        width: 1200px;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        position: relative;
+    }
+
+    header .header_top .phone {
+        width: 170px;
+        height: 24.65px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: absolute;
+        left: 0;
+        font-family: 'Inter';
+        font-weight: 400px;
+        font-size: 14px;
+        color: #ffffff;
+        gap: 24px;
+    }
+
+    header .header_top .email {
+        width: 149px;
+        height: 24.65px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: absolute;
+        left: 203px;
+        font-family: 'Inter';
+        font-weight: 400px;
+        font-size: 14px;
+        color: #ffffff;
+        gap: 24px;
+    }
+
+    header .header_top .social_midia {
+        width: 117px;
+        height: 24.65px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        position: absolute;
+        right: 0;
+    }
+
+    /* header-botton mobile */
+
+    header .header_botton {
+        width: 100%;
+        height: 90.7px;
+    }
+
+    header .header_botton .menu_icon {
+        display: none;
+    }
+
+header .header_botton .logo_icon {
+    width: 196px;
+    height: 55.21px;
+}
+
+header .header_botton nav {
+    width: 407px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 0px;
+    left: 0px;
+
+    flex-direction: row;
+    background-image: none;
+    backdrop-filter: none;
+    border-image: none;
+    
+    border-style: none;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    z-index: 0;
+    transition: none; 
+}
+
+header .header_botton nav > a {
+    display: flex;
+    border-bottom: none;
+    color: #ffffff;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Inter';
+    font-weight: 400;
+}
+
+header .header_botton .phone {
+    display: none;
+}
+
+header .header_botton .email {
+    display: none;
+}
+
+header .header_botton .social_midia {
+    display: none;
+}
+
+header .header_botton .menu_icon_mobile {
+    display: none;
+}
+
+header .header_botton .user_menu {
+    display: none;
+    position: relative;
+    top: 0;
+    right: 0;
+    width: 170px;
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    background-image: none;
+    backdrop-filter: none;
+    border-image-source: none;
+    justify-content: space-between;
+    padding-bottom: 0;
+    z-index: none;
+    transition: none; 
+    border: none;
+}
+
+header .header_botton .user_menu > a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 18px; 
+}
+
+header .header_botton .user_menu img {
+    width: 25px;
+    height: 25px;
+}
+
+header .header_botton a:hover {
+    color: #f9aa01;
+}
+
+/* Footer */
+
+footer .footer_cont {
+    width: 100%;
+    height: 520px;
+    background: linear-gradient(180deg, #0E0915 21.51%, rgba(67, 3, 99, 0.03) 100%), url(../assets/image/backgroung_footerdesktop.png);
+    background-size: 100% 212px, 100% 520px;
+    background-position: center 0%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    position: relative;
+    flex-wrap: wrap;
+}
+
+footer .logo_footer {
+    width: 196px;
+    height: 56px;
+    position: absolute;
+    position: absolute;
+    left: 7.71%;
+    right: 78.68%;
+    top: 20.42%;
+    bottom: 68.79%;
+    margin-top: 0; 
+}
+
+footer .footer_cont span {
+    width: 285px;
+    height: 87px;
+    font-size: 16px;
+    
+    line-height: 20px;
+    position: absolute;
+    left: 8.33%;
+    right: 71.88%;
+    top: 38.34%;
+    bottom: 44.89%;
     
 
+}
 
+footer .footer_cont .social_cont {
+    width: 206px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: absolute;
+  
+    left: 8.33%;
+    top: 61.54%;
     
 }
+
+footer .footer_cont .icon_form {
+    width: 40px;
+    height: 40px;
+    background-color: #f9aa01;
+    display: flex;
+    border-radius: 8px;
+    padding-top: 7px;
+    justify-content: center;
+    margin-top: 0px;
+}
+
+footer .footer_nave {
+    width: 326px;
+    height: 155px;
+    position: absolute;
+    top: 483px;
+}
+
+footer .footer_nave h3 {
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 46px;
+    color: #ffffff;
+}
+
+footer .footer_nave hr {
+    border: 2px solid #f9aa01;
+    width: 112.96px;
+}
+
+footer .footer_links ul {
+    list-style: none;
+    width: 100%;
+    height: 61.87px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-self: center;
+    position: absolute;
+    margin-top: 43.08px;  
+}
+
+footer .footer_links li {
+    width: 103.66px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+}
+
+footer .footer_links li::before {
+    content: "\2015";
+    color: #f9aa01;
+    padding-right: 12px;
+}
+
+footer .footer_links ul a {
+    font-family: 'Titillium Web';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24.34px;
+    text-align: justify;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer .address {
+    width: 326px;
+    height: 257.5px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 727px;
+    justify-content: flex-start;   
+}
+
+footer .address h3 {
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 46px;
+    color: #ffffff;
+}
+
+footer .address hr {
+    border: 2px solid #f9aa01;
+    width: 102px;
+}
+
+footer .address_box {
+    width: 289px;
+    height: 164.32px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+}
+
+footer .address_box h4 {
+    font-family: 'Titillium Web';
+    font-style: bold;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24.34px;
+    color: #f9aa01;
+    text-align: justify;
+}
+
+footer .address_box span {
+    font-family: 'Titillium Web';
+    font-style: bold;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24.34px;
+    color: #ffffff;
+    text-align: justify;
+}
+
+footer .newsletter {
+    width: 333px;
+    height: 201px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 1104px;
+}
+
+footer .newsletter h3 {
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 46px;
+    color: #ffffff;
+}
+
+footer .newsletter hr {
+    border: 2px solid #f9aa01;
+    width: 102px;
+}
+
+footer .newsletter_box {
+    width: 333px;
+    height: 94.45px;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    bottom: 0;
+    gap: 10px;
+}
+
+footer .newsletter_box input {
+    background: transparent;
+    border: none;
+    outline: none;
+    width: 333px;
+    height: 40px;
+    border-radius: 8px;
+    background-image: linear-gradient(90deg, #BBAACC 0%, rgba(217, 217, 217, 0) 103.86%);
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24.34px;
+    color: #ffffff;
+    text-align: justify;
+}
+
+footer .newsletter_box ::placeholder {
+    font-family: 'Titillium Web';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24.34px;
+    color: #ffffff;
+    text-align: justify;
+    padding-left: 18px;
+    backdrop-filter: blur(3px);
+}
+
+footer .newsletter_box button {
+    width: 333px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(249, 170, 1, 1);
+    font-family: 'Titillium Web';
+    border: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36.5px;
+    color: rgba(27, 20, 38, 1);
+}
+
+footer .icon_form_footer {
+    width: 40px;
+    height: 40px;
+    background-color: #f9aa01;
+    display: flex;
+    border-radius: 8px;
+    padding-top: 7px;
+    justify-content: center;
+    margin-top: 169px;
+    position: absolute;
+    top: 1200px;
+    left: 309px;
+}
+
+footer .copyright {
+    width: 280px;
+    height: 26px;
+    position: absolute;
+    bottom: 40px;
+}
+
+footer .copyright span {
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24.34px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+  }
