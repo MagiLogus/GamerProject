@@ -1002,9 +1002,14 @@ footer .icon_form_footer {
 
 footer .copyright {
     width: 280px;
-    height: 26px;
+    height: 24px;
+    display: block;
     position: absolute;
-    bottom: 40px;
+    left: 12.53%;
+    right: 12.8%;
+    top: 95.82%;
+    bottom: 2.61%;
+
 }
 
 footer .copyright span {
