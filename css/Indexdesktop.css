@@ -186,7 +186,7 @@
         bottom: 68.79%;
     }
 
-    footer .footer_cont .about_footer  {
+    footer .about_footer span {
         width: 285px;
         height: 87.17px;
         display: flex;
@@ -286,8 +286,9 @@
         top: 87.48%;
         bottom: 7.9%;
     }
-
+    
+    footer .footer_links a:hover {
+        color: #f9aa01;
+    }
    
-
-
     }
