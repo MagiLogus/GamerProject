@@ -105,10 +105,12 @@ header .header_botton nav {
     height: 20px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    position: relative;
-    top: 0px;
-    left: 0px;
+    justify-content: space-between;
+    position: absolute;
+left: 36.6%;
+right: 35.14%;
+top: 61.97%;
+bottom: 26.06%;
 
     flex-direction: row;
     background-image: none;
@@ -116,8 +118,8 @@ header .header_botton nav {
     border-image: none;
     
     border-style: none;
-    justify-content: space-between;
-    padding-bottom: 20px;
+    
+    padding-bottom: 0px;
     z-index: 0;
     transition: none; 
 }
@@ -126,10 +128,10 @@ header .header_botton nav > a {
     display: flex;
     border-bottom: none;
     color: #ffffff;
-    text-align: center;
-    width: 100%;
-    height: 100%;
-    padding: 0;
+    
+    width: auto;
+    height: auto;
+    padding: 0px;
     text-decoration: none;
     font-size: 14px;
     font-family: 'Inter';
@@ -153,13 +155,12 @@ header .header_botton .menu_icon_mobile {
 }
 
 header .header_botton .user_menu {
-    display: none;
+    display: flex;
+    width: 129px;
+    height: 25px;
     position: relative;
     top: 0;
     right: 0;
-    width: 170px;
-    height: 25px;
-    display: flex;
     flex-direction: row;
     background-image: none;
     backdrop-filter: none;
@@ -177,7 +178,7 @@ header .header_botton .user_menu > a {
     justify-content: center;
     align-items: center;
     width: 100%;
-    padding: 18px; 
+    padding: 0px; 
 }
 
 header .header_botton .user_menu img {
@@ -206,14 +207,16 @@ footer .footer_cont {
     flex-wrap: wrap;
 }
 
+
 footer .logo_footer {
     width: 196px;
-    height: 56px;
+    height: 56.11px;
     position: absolute;
-left: 7.71%;
-right: 78.68%;
-top: 20.42%;
-bottom: 68.79%;
+    margin: 0;
+    left: 7.71%;
+    right: 78.68%;
+    top: 20.42%;
+    bottom: 68.79%;
 }
 
 footer .footer_cont .about_footer  {
@@ -223,29 +226,31 @@ footer .footer_cont .about_footer  {
     font-size: 16px;
     line-height: 20px;
     position: absolute;
-left: 8.33%;
-right: 71.88%;
-top: 38.34%;
-bottom: 44.89%;
+    left: 8.33%;
+    right: 71.88%;
+    top: 38.34%;
+    bottom: 44.89%;
     
 
 }
 
 footer .footer_cont .social_cont {
     width: 206px;
-    height: 40px;
+    height: 40.08px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     position: absolute;
-    left: 120px;
-    top: 323.72px;
+    left: 8.33%;
+    right: 77.36%;
+    top: 62.31%;
+    bottom: 30%;
     
 }
 
 footer .footer_cont .icon_form {
     width: 40px;
-    height: 40px;
+    height: 40.8px;
     background-color: #f9aa01;
     display: flex;
     border-radius: 8px;
@@ -255,15 +260,17 @@ footer .footer_cont .icon_form {
 }
 
 footer .footer_nave {
-    width: 200px;
+    width: 170px;
     height: 257.5px;
     display: flex;
     flex-direction: column;
     position: absolute;
-left: 29.51%;
-right: 60.21%;
-top: 20.42%;
-bottom: 30.06%;
+    margin-left: 20px;
+    
+    left: 29.51%;
+    right: 60.21%;
+    top: 20.42%;
+    bottom: 30.06%;
 }
 
 footer .footer_nave h3 {
@@ -283,7 +290,7 @@ footer .footer_nave hr {
 footer .footer_links ul {
     list-style: none;
     width: 93px;
-    height: 164.32px;
+    height: 180px;
     display: flex;
     flex-direction: column;
     align-self: center;
@@ -296,6 +303,7 @@ footer .footer_links li {
     height: 24px;
     display: flex;
     align-items: center;
+    margin-bottom: 11.02px;
 }
 
 footer .footer_links li::before {
@@ -324,6 +332,7 @@ footer .address {
     right: 29.38%;
     top: 20.42%;
     bottom: 30.06%;
+   
     
     justify-content: flex-start;   
 }
@@ -343,7 +352,7 @@ footer .address hr {
 }
 
 footer .address_box {
-    width: 260px;
+    width: 289px;
     height: 164.32px;
     display: block;
     flex-direction: column;
@@ -369,6 +378,7 @@ footer .address_box span {
     line-height: 24.34px;
     color: #ffffff;
     text-align: justify;
+    
 }
 
 footer .newsletter {
@@ -376,6 +386,7 @@ footer .newsletter {
     height: 201px;
     display: flex;
     flex-direction: column;
+    margin-left: 18px;
     position: absolute;
     left: 71.88%;
     right: 8.33%;
@@ -411,11 +422,15 @@ footer .newsletter_box input {
     background: transparent;
     border: none;
     outline: none;
-    width: 285px;
+    width: 333px;
     height: 40px;
-    display: block;
-    border-radius: 8px;
+    
     background-image: linear-gradient(90deg, #BBAACC 0%, rgba(217, 217, 217, 0) 103.86%);
+    border: 1px solid transparent;
+    border-image: linear-gradient(91.13deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+    border-image-slice: 1;
+    border-radius: 8px;
+    background-clip: padding-box;
     font-family: 'Titillium Web';
     font-style: normal;
     font-weight: 400;
@@ -424,6 +439,10 @@ footer .newsletter_box input {
     color: #ffffff;
     text-align: justify;
 }
+
+
+
+
 
 footer .newsletter_box ::placeholder {
     font-family: 'Titillium Web';
@@ -475,7 +494,10 @@ footer .copyright {
     width: 280px;
     height: 26px;
     position: absolute;
-    bottom: 40px;
+    left: 41.32%;
+    right: 41.32%;
+    top: 87.48%;
+    bottom: 7.9%;
 }
 
 footer .copyright span {

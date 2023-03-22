@@ -949,6 +949,13 @@ footer .newsletter_box input {
     height: 40px;
     border-radius: 8px;
     background-image: linear-gradient(90deg, #BBAACC 0%, rgba(217, 217, 217, 0) 103.86%);
+    border: 1px solid transparent;
+    border-image-source: linear-gradient(91.13deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+    border-image-slice: 1;
+    background-clip: content-box;
+    border-width: 1px;
+
+
     font-family: 'Titillium Web';
     font-style: normal;
     font-weight: 400;
