@@ -1,9 +1,10 @@
 /* Desktop Version */
 
-@media screen and (min-width: 992px) {
+@media (min-width: 992px) {
 
     .layout_grid {
         width: 100%;
+        margin: 0 auto;
         max-width: 1200px;
     }
 
@@ -161,6 +162,198 @@
 
     header .header_botton a:hover {
         color: #f9aa01;
+    }
+
+    /* Banner */
+
+    main .banner_cont {
+        margin-top: 0px;
+        position: relative;
+        height: 722px;
+        background: linear-gradient(90deg, rgba(254,66,91,1) 0%, rgba(17,24,32,1) 15%, rgba(17,24,32,1) 85%, rgba(254,66,91,1) 100%);
+    }
+
+    main .banner_mobile {
+        display: none;
+    }
+
+    main .banner_desktop {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 722px;
+        object-fit: cover;
+
+      }
+
+      main .banner_cont h1 {
+        width: 556px;
+        height: 125px;
+        font-size: 80px;
+        position: absolute;
+        left: 442px;
+        top: 20px;
+    }
+
+    main .banner_cont a {
+        width: 203px;
+        position: absolute;
+        left: 617px;
+        bottom: 72px;
+    }
+
+    /* Last Games/Sesion */
+
+    main .lasts_cont {
+        height: 500px;
+    }
+
+    main .box_most {
+        width: 556px;
+        height: 313px;
+        background-image: url(../assets/image/cardfifa-desktop.png);
+        position: absolute;
+        left: 120px;
+        top: 107px;
+    }
+
+    main .translucid_bar {
+        width: 556px;
+        height: 81px;
+    }
+
+    main .form {
+        width: 221px;
+        height: 57px;
+        position: absolute;
+        bottom: 12px;
+        left: 57px;
+    }
+
+    main .form span {
+        font-size: 20px;
+        line-height: 30.42px;
+    }
+
+    main .box_last {
+        width: 556px;
+        height: 313px;
+        background-image: url(../assets/image/cardcs_desktop.png);
+        position: absolute;
+        left: 764px;
+        top: 107px;
+    }
+
+    /* Session Time Programer */
+
+    main .programer_cont {
+        height: 1000px;
+        position: relative;
+    }
+
+    main .programer_cont h2 {
+        width: 746px;
+        height: 61px;
+        font-size: 40px;
+        margin-top: 0px;
+        position: absolute;
+        top: 88px;
+        left: 347px;
+    }
+
+    main .programer_cont hr {
+        position: absolute;
+        top: 184px;
+        left: 618px;
+    }
+
+    main .character_killjoy {
+        background-image: url(../assets/image/killjoy_desktop.png);
+        width: 425px;
+        height: 692px;
+        position: absolute;
+        top: 219px;
+        left: 120px;
+    }
+
+    main .text_box {
+        width: 360px;
+        height: 440px;
+        position: absolute;
+        top: 193px;
+        left: 245px;
+    }
+
+    main .character_killjoy img {
+        width: 143px;
+        height: 143px;
+        position: absolute;
+        top: 35px;
+        left: 109px;
+    }
+
+    main .text_box h3 {
+        font-size: 25px;
+        width: 248px;
+        height: 38px;
+        position: absolute;
+        top: 206px;
+        left: 56px;
+    }
+
+    main .text_box p {
+        font-size: 16px;
+        text-align: justify;
+        color: #ffffff;
+        width: 248px;
+        height: 80px;
+        position: absolute;
+        top: 262px;
+        left: 56px;
+    }
+
+    main .character_jinks {
+        background-image: url(../assets/image/jinx_desktop.png);
+        width: 521px;
+        height: 692px;
+        position: absolute;
+        top: 219px;
+        left: 799px;
+    }
+
+    main .text_box_teacher {
+        width: 360px;
+        height: 440px;
+        position: absolute;
+        top: 193px;
+        left: -63px;
+    }
+
+    main .character_jinks img {
+        width: 162px;
+        height: 161px;
+        position: absolute;
+        top: 35px;
+        left: 98px;
+    }
+
+    main .text_box_teacher h3 {
+        font-size: 25px;
+        width: 197px;
+        height: 38px;
+        position: absolute;
+        top: 206px;
+        left: 80px;
+    }
+
+    main .text_box_teacher p {
+        font-size: 16px;
+        width: 248px;
+        height: 120px;
+        position: absolute;
+        top: 262px;
+        left: 54px;
     }
 
     /* Footer */

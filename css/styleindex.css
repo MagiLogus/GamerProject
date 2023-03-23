@@ -209,6 +209,7 @@ main .lasts_cont {
     height: 590px;
     background-color: #1b1426;
     width: 100%;
+    position: relative;
 }
 
 main .box_most {
@@ -218,7 +219,9 @@ main .box_most {
     width: 335.75px;
     height: 189px;
     background-image: url(../assets/image/popular\ image.png);
-    position: relative;
+    position: absolute;
+    left: 20px;
+    top: 74px;
 }
 
 main .translucid_bar {
@@ -262,7 +265,9 @@ main .form span {
     width: 335.75px;
     height: 189px;
     background-image: url(../assets/image/card_cs.png);
-    position: relative;
+    position: absolute;
+    left: 20px;
+    top: 324px;
 }
 
 /* Session Time Programer */
@@ -273,12 +278,13 @@ main .programer_cont {
     background-color: #f9aa01;
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
     position: relative;
 }
 
 main .programer_cont h2 {
-    width: 370px;
+    width: 336px;
     height: 27px;
     font-family: 'Titillium Web';
     font-size: 18px;
@@ -292,6 +298,7 @@ main .programer_cont h2 {
 main .programer_cont hr {
     position: absolute;
     top: 146px ;
+    left: 86px;
     width: 204px;
     height: 0;
     border: 2px solid #1b1426;
