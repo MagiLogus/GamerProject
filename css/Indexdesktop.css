@@ -1,6 +1,6 @@
 /* Desktop Version */
 
-@media (min-width: 992px) {
+@media screen (min-width: 992px) {
 
     .layout_grid {
         width: 100%;
