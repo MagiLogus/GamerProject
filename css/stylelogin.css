@@ -139,7 +139,88 @@ header .header_botton .user_menu > a {
     right: 0px !important;
 }
 
-/* Main */
+/* Login */
+
+main .login_cont {
+    margin-top: 60px;
+    width: 100%;
+    height: 687px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background: url(../assets/image/Banner_Login.png);
+    backdrop-filter: blur(2px);
+}
+
+main .login_cont::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(2px);
+    z-index: -1;
+}
+
+main .translucid_box {
+    width: 335px;
+    height: 462px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 78px;
+    left: 20px;
+    background: linear-gradient(112.07deg, rgba(27, 20, 38, 0.6) 0%, rgba(60, 3, 65, 0.38) 98.83%)padding-box, linear-gradient(113.27deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 98.78%)border-box;
+    border: 1px solid transparent;
+    border-image-slice: 1;
+    backdrop-filter: blur(5px);
+    border-radius: 8px;
+}
+
+main .translucid_box h1{
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 43px;
+    color: #ffffff;
+    text-transform: uppercase;
+    position: absolute;
+    top: 46px;
+    left: 123px;
+}
+
+main .translucid_box hr {
+    border: 3px solid #f9aa01;
+    width: 90px;
+    position: absolute;
+    top: 86px;
+    left: 116px;
+}
+
+main .translucid_box .input_email {
+    width: 273px;
+    height: 40px;
+    display: flex;
+
+    background: linear-gradient(90deg, rgba(187, 170, 204, 0.9) 0%, rgba(217, 217, 217, 0) 103.86%)padding-box, linear-gradient(91.13deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%)border-box;
+    border: 1px solid transparent;    
+
+    
+    border-image-slice: 1;
+    border-radius: 8px;
+    backdrop-filter: blur(3px);
+    position: absolute;
+    top: 179px;
+    left: 31px;
+
+}
+
+
 
 /* Footer */
 
