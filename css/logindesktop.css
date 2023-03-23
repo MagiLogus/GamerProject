@@ -163,6 +163,76 @@
         color: #f9aa01;
     }
 
+    /* Login */
+
+    main .login_cont {
+        margin-top: 0px;
+        width: 100%;
+        height: 680px;
+        background: url(../assets/image/Banner_Login_desktop.png);
+        backdrop-filter: blur(2px);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    main .translucid_box {
+        width: 800px;
+        height: 520px;
+        position: absolute;
+        top: 80px;
+        left: 320px;
+    }
+
+    main .translucid_box h1{
+        font-size: 40px;
+        position: absolute;
+        top: 53px;
+        left: 345px;
+    }
+
+    main .translucid_box hr {
+        width: 106px;
+        position: absolute;
+        top: 114px;
+        left: 347px;
+    }
+
+    main .translucid_box .input_email {
+        width: 565px;
+        height: 40px;
+        position: absolute;
+        top: 185px;
+        left: 117px; 
+    }
+
+    main .translucid_box .icon_email {
+        position: absolute;
+        top: 195px;
+        left: 133px;
+    }
+
+    main .translucid_box .input_password {
+        width: 565px;
+        height: 40px;
+        position: absolute;
+        top: 266px;
+        left: 117px;
+    }
+
+    main .translucid_box .icon_password {
+        position: absolute;
+        top: 276px;
+        left: 133px;
+    }
+
+    main .translucid_box button {
+        width: 201px;
+        position: absolute;
+        top: 367px;
+        left: 299px;
+    }
+
     /* Footer */
 
     footer .footer_cont {
