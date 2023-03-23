@@ -304,8 +304,6 @@
 
     main .text_box p {
         font-size: 16px;
-        text-align: justify;
-        color: #ffffff;
         width: 248px;
         height: 80px;
         position: absolute;
@@ -354,6 +352,90 @@
         position: absolute;
         top: 262px;
         left: 54px;
+    }
+
+    /* News Session */
+
+    main .news_cont {
+        background-image: url(../assets/image/news_desketop.png), linear-gradient(119.63deg, rgba(45, 24, 77, 0) 0%, rgba(27, 20, 38, 0.55) 99.45%);
+        height: 1175px;
+    }
+
+    main .news_cont h4 {
+        width: 168px;
+        height: 61px;
+        position: absolute;
+        top: 90px;
+        left: 642px;
+        font-size: 40px;
+        margin-top: 0px;
+    }
+
+    main .news_cont hr {
+        position: absolute;
+        top: 186px;
+        left: 595px;
+    }
+
+    main .box_news_1 {
+        width: 285px;
+        height: 387px;
+        position: absolute;
+        left: 120px;
+        top: 248px;
+    }
+
+    main .news_img {
+        width: 285px;
+    }
+
+    main .box_news_2 {
+        width: 285px;
+        position: absolute;
+        top: 248px;
+        left: 425px;
+    }
+
+    main .box_news_3 {
+        width: 285px;
+        position: absolute;
+        top: 248px;
+        left: 730px;
+    }
+
+    main .box_news_4 {
+        width: 285px;
+        position: absolute;
+        top: 248px;
+        left: 1035px;
+    }
+
+    main .box_news_5 {
+        width: 285px;
+        position: absolute;
+        top: 697px;
+        left: 120px;
+    }
+
+    main .box_news_6 {
+        width: 285px;
+        position: absolute;
+        top: 697px;
+        left: 425px;
+    }
+
+    main .box_news_7 {
+        width: 285px;
+        position: absolute;
+        top: 697px;
+        left: 730px;
+    }
+
+    main .box_news_8 {
+        width: 285px;
+        position: absolute;
+        top: 697px;
+        left: 1035px;
     }
 
     /* Footer */

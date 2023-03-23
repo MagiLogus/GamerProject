@@ -437,7 +437,9 @@ main .news_cont h4 {
     font-size: 18px;
     line-height: 27px;
     color: #ffffff;
-    margin-top: 46px;
+    position: absolute;
+    top: 46px;
+    left: 163px;
 }
 
 main .news_cont hr {
