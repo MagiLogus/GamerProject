@@ -153,13 +153,12 @@ main .banner_cont {
 }
 
 main .banner_mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    height: 606px;
-    z-index: 5;
+    height: 100%;
     object-fit: cover;
-    position: absolute;
-    top: 0;
-    z-index: 0;
   }
 
 main .banner_desktop {
@@ -167,6 +166,8 @@ main .banner_desktop {
   }
 
 main .banner_cont h1 {
+    width: 278px;
+    height: 61px;
     color: #ffffff;
     align-items: center;
     justify-content: center;
@@ -176,8 +177,10 @@ main .banner_cont h1 {
     text-shadow: 0px 0px 7px #FD4255;
     line-height: 61px;
     position: absolute;
-    left: 49px;
-    top: 11px;
+    left: 50%;
+    transform: translateX(-139px); 
+    margin-right: -139px; 
+    top: calc((11 / 606 * 100%));
     z-index: 1;
 }
 
@@ -196,7 +199,9 @@ main .banner_cont a {
     font-size: 24px;
     position: absolute;
     bottom: 88px;
-    left: 102px;
+    left: 50%;
+    transform: translateX(-85.5px); 
+    margin-right: -85.5px; 
 }
 
 /* Last Games/Sesion */
@@ -220,8 +225,10 @@ main .box_most {
     height: 189px;
     background-image: url(../assets/image/popular\ image.png);
     position: absolute;
-    left: 20px;
-    top: 74px;
+    left: 50%;
+    transform: translateX(-167.875px); 
+    margin-right: 167.875px; 
+    top: calc((74 / 590 * 100%));
 }
 
 main .translucid_bar {
@@ -266,8 +273,10 @@ main .form span {
     height: 189px;
     background-image: url(../assets/image/card_cs.png);
     position: absolute;
-    left: 20px;
-    top: 324px;
+    left: 50%;
+    transform: translateX(-167.875px); 
+    margin-right: 167.875px; 
+    top: calc((324 / 590 * 100%));
 }
 
 /* Session Time Programer */
