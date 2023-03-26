@@ -5,7 +5,7 @@
     .layout_grid {
         width: 100%;
         margin: 0 auto;
-        max-width: 1200px;
+        max-width: 1440px;
     }
 
     /* header-top mobile */
@@ -182,7 +182,7 @@
         justify-content: center;
         align-items: center;
         width: 100%;
-        height: 722px;
+        height: 100%;
         object-fit: cover;
 
       }
@@ -191,16 +191,23 @@
         width: 556px;
         height: 125px;
         font-size: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         position: absolute;
-        left: 442px;
-        top: 20px;
+        top: 2.2160%; 
+        left: 50%;
+        transform: translateX(-278px); 
+        margin-right: -278px; 
     }
 
     main .banner_cont a {
         width: 203px;
         position: absolute;
-        left: 617px;
-        bottom: 72px;
+        left: 50%;
+        transform: translateX(-101.5px); 
+        margin-right: -101.5px; 
+        bottom: calc((72 / 722 * 100%));
     }
 
     /* Last Games/Sesion */
@@ -213,22 +220,26 @@
         width: 556px;
         height: 313px;
         background-image: url(../assets/image/cardfifa-desktop.png);
+        background-size: cover;
+        border-radius: 8px;
         position: absolute;
-        left: 120px;
-        top: 107px;
+        top: calc((107 / 500 * 100%));
+        left: 25%;
+        transform: translateX(-278px); 
+        margin-right: 278px; 
     }
 
     main .translucid_bar {
-        width: 556px;
-        height: 81px;
+        width: calc((556 / 556 * 100%));
+        height: calc((81 / 313 * 100%));
     }
 
     main .form {
-        width: 221px;
-        height: 57px;
+        width: calc((221 / 556 * 100%));
+        height: calc((57 / 81 * 100%));
         position: absolute;
-        bottom: 12px;
-        left: 57px;
+        left: calc((57 / 556 * 100%));
+        top: calc((12 / 81 * 100%));
     }
 
     main .form span {
@@ -239,10 +250,14 @@
     main .box_last {
         width: 556px;
         height: 313px;
+        border-radius: 8px;
+        background-size: cover;
         background-image: url(../assets/image/cardcs_desktop.png);
         position: absolute;
-        left: 764px;
-        top: 107px;
+        top: calc((107 / 500 * 100%));
+        left: 75%;
+        transform: translateX(-278px); 
+        margin-right: 278px; 
     }
 
     /* Session Time Programer */
@@ -250,6 +265,7 @@
     main .programer_cont {
         height: 1000px;
         position: relative;
+        background-color: #000000;
     }
 
     main .programer_cont h2 {
@@ -258,100 +274,131 @@
         font-size: 40px;
         margin-top: 0px;
         position: absolute;
-        top: 88px;
-        left: 347px;
+        top: calc((88 / 1000 * 100%));
+        left: 50%;
+        transform: translateX(-373px);
+        margin-right: -373px;
+        color: #ffffff;
     }
 
     main .programer_cont hr {
         position: absolute;
-        top: 184px;
-        left: 618px;
+        top: calc((184 / 1000 * 100%));
+        left: 50%;
+        transform: translateX(-102px);
+        margin-right: -102px;
+        border: #f9aa01 solid 2px;
     }
 
     main .character_killjoy {
-        background-image: url(../assets/image/killjoy_desktop.png);
-        width: 425px;
-        height: 692px;
-        position: absolute;
-        top: 219px;
-        left: 120px;
+        background-image: none;
+        width: calc((425 / 1440 * 100%));
+        height: calc((692 / 1000 * 100%));
+        background-repeat: no-repeat;
+        background-size: contain;
+        top: calc((219 / 1000 * 100%));
+        left: 25%;
+        transform: translateX(-247.5px);
+        margin-right: -247.5px;
+    }
+
+    main .character_killjoy video {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
     }
 
     main .text_box {
-        width: 360px;
-        height: 440px;
+        width: calc((360 / 425 * 100%));
+        height: calc((440 / 692 * 100%));
         position: absolute;
-        top: 193px;
-        left: 245px;
+        top: calc((193 / 692 * 100%));
+        left: calc((245 / 425 * 100%));
     }
 
     main .character_killjoy img {
-        width: 143px;
-        height: 143px;
+        width: calc((143 / 360 * 100%));
+        height: calc((143 / 440 * 100%));
         position: absolute;
-        top: 35px;
-        left: 109px;
+        top: calc((35 / 440 * 100%));
+        left: calc((109 / 360 * 100%));
     }
 
     main .text_box h3 {
         font-size: 25px;
-        width: 248px;
-        height: 38px;
+        width: calc((248 / 360 * 100%));
+        height: calc((38 / 440 * 100%));
         position: absolute;
-        top: 206px;
-        left: 56px;
+        top: calc((206 / 440 * 100%));
+        left: calc((56 / 360 * 100%));
     }
 
     main .text_box p {
         font-size: 16px;
-        width: 248px;
-        height: 80px;
+        width: calc((248 / 360 * 100%));
+        height: calc((80 / 440 * 100%));
         position: absolute;
-        top: 262px;
-        left: 56px;
+        top: calc((262 / 440 * 100%));
+        left: calc((56 / 360 * 100%));
     }
 
     main .character_jinks {
-        background-image: url(../assets/image/jinx_desktop.png);
-        width: 521px;
-        height: 692px;
+        background-image: none;
+        background-color: #000000;
+        width: calc((521 / 1440 * 100%));
+        height: calc((692 / 1000 * 100%));
+        background-repeat: no-repeat;
         position: absolute;
-        top: 219px;
-        left: 799px;
+        top: calc((219 / 1000 * 100%));
+        left: 75%;
+        transform: translateX(-260.5px);
+        margin-right: -260.5px;
+    }
+
+    main .character_jinks video {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
     }
 
     main .text_box_teacher {
-        width: 360px;
-        height: 440px;
+        width: calc((360 / 521 * 100%));
+        height: calc((440 / 692 * 100%));
         position: absolute;
-        top: 193px;
-        left: -63px;
+        top: calc((193 / 692 * 100%));
+        left: calc((-63 / 360 * 100%));
     }
 
     main .character_jinks img {
-        width: 162px;
-        height: 161px;
+        width: calc((162 / 360 * 100%));
+        height: calc((161 / 440 * 100%));
         position: absolute;
-        top: 35px;
-        left: 98px;
+        top: calc((35 / 440 * 100%));
+        left: calc((98 / 360 * 100%));
     }
 
     main .text_box_teacher h3 {
         font-size: 25px;
-        width: 197px;
-        height: 38px;
+        width: calc((197 / 360 * 100%));
+        height: calc((38 / 440 * 100%));
         position: absolute;
-        top: 206px;
-        left: 80px;
+        top: calc((206 / 440 * 100%));
+        left: calc((80 / 360 * 100%));
     }
 
     main .text_box_teacher p {
         font-size: 16px;
-        width: 248px;
-        height: 120px;
+        width: calc((248 / 360 * 100%));
+        height: calc((38 / 440 * 100%));
         position: absolute;
-        top: 262px;
-        left: 54px;
+        top: calc((262 / 440 * 100%));
+        left: calc((54 / 360 * 100%));
     }
 
     /* News Session */
@@ -362,80 +409,108 @@
     }
 
     main .news_cont h4 {
-        width: 168px;
-        height: 61px;
+        width: calc((110 / 1440 * 100%));
+        height: calc((61 / 1175 * 100%));
         position: absolute;
-        top: 90px;
-        left: 642px;
+        top: calc((90 / 1175 * 100%));
+        left: 50%;
+        transform: translateX(-55px);
+        margin-right: -55px;
         font-size: 40px;
         margin-top: 0px;
     }
 
     main .news_cont hr {
         position: absolute;
-        top: 186px;
-        left: 595px;
+        top: calc((186 / 1175 * 100%));
+        left: 50%;
+        transform: translateX(-102px);
+        margin-right: -102px;
     }
 
     main .box_news_1 {
-        width: 285px;
-        height: 387px;
+        width: calc((285 / 1440 * 100%));
+        height: calc((387 / 1175 * 100%));
         position: absolute;
-        left: 120px;
-        top: 248px;
+        left: 15%;
+        transform: translateX(-142.5px);
+        margin-right: -142.5px;
+        top: calc((248 / 1175 * 100%));
     }
 
     main .news_img {
-        width: 285px;
+        width: calc((285 / 285 * 100%));
+        height: calc((174 / 387 * 100%));
     }
 
     main .box_news_2 {
-        width: 285px;
+        width: calc((285 / 1440 * 100%));
+        height: calc((387 / 1175 * 100%));
         position: absolute;
         top: 248px;
-        left: 425px;
+        left: 38.33%;
+        transform: translateX(-142.5px);
+        margin-right: -142.5px;
     }
 
     main .box_news_3 {
-        width: 285px;
+        width: calc((285 / 1440 * 100%));
+        height: calc((387 / 1175 * 100%));
         position: absolute;
         top: 248px;
-        left: 730px;
+        left: 61.66%;
+        transform: translateX(-142.5px);
+        margin-right: -142.5px;
     }
 
     main .box_news_4 {
-        width: 285px;
+        width: calc((285 / 1440 * 100%));
+        height: calc((387 / 1175 * 100%));
         position: absolute;
         top: 248px;
-        left: 1035px;
+        left: 85%;
+        transform: translateX(-142.5px);
+        margin-right: -142.5px;
     }
 
     main .box_news_5 {
-        width: 285px;
+        width: calc((285 / 1440 * 100%));
+        height: calc((387 / 1175 * 100%));
         position: absolute;
         top: 697px;
-        left: 120px;
+        left: 15%;
+        transform: translateX(-142.5px);
+        margin-right: -142.5px;
     }
 
     main .box_news_6 {
-        width: 285px;
+        width: calc((285 / 1440 * 100%));
+        height: calc((387 / 1175 * 100%));
         position: absolute;
         top: 697px;
-        left: 425px;
+        left: 38.33%;
+        transform: translateX(-142.5px);
+        margin-right: -142.5px;
     }
 
     main .box_news_7 {
-        width: 285px;
+        width: calc((285 / 1440 * 100%));
+        height: calc((387 / 1175 * 100%));
         position: absolute;
         top: 697px;
-        left: 730px;
+        left: 61.66%;
+        transform: translateX(-142.5px);
+        margin-right: -142.5px;
     }
 
     main .box_news_8 {
-        width: 285px;
+        width: calc((285 / 1440 * 100%));
+        height: calc((387 / 1175 * 100%));
         position: absolute;
         top: 697px;
-        left: 1035px;
+        left: 85%;
+        transform: translateX(-142.5px);
+        margin-right: -142.5px;
     }
 
     /* Footer */
