@@ -494,6 +494,11 @@
         margin-right: -142.5px;
     }
 
+    main .box_news_1:hover, .box_news_2:hover, .box_news_3:hover, .box_news_4:hover, .box_news_5:hover, .box_news_6:hover, .box_news_7:hover, .box_news_8:hover{
+        box-shadow: 15px 0px 35px;
+        transition: 0.7s;
+    }
+
     /* Footer */
 
     footer .footer_cont {
