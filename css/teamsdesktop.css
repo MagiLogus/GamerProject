@@ -163,6 +163,135 @@
         color: #f9aa01;
     }
 
+    /* Main */
+
+    main .page_cont{
+        margin-top: 0px;
+        height: 1391px;
+    }
+    
+    main .team_box{
+        width: 800px;
+        height: 530px;
+        position: absolute;
+        top: calc((82 / 1391 * 100%));
+        left: 50%;
+        transform: translateX(-400px); 
+        margin-right: -400px; 
+    }
+    
+    main .team_box h1{
+        width: 414px;
+        height: 61px;
+        font-size: 40px;
+        position: absolute;
+        top: calc((53 / 530 * 100%));
+        left: 50%;
+        transform: translateX(-207px); 
+        margin-right: -207px; 
+    }
+    
+    main .team_box hr{
+        width: 390px;
+        position: absolute;
+        top: calc((114 / 530 * 100%));
+        left: 50%;
+        transform: translateX(-195px); 
+        margin-right: -195px; 
+    }
+    
+    main .team_box .team_id input {
+        width: 565px;
+        position: absolute;
+        top: 185px;
+        left: 117px;
+    }
+    
+    main .team_box .team_name input {
+        width: 565px;
+        position: absolute;
+        top: 264px;
+        left: 117px;
+    }
+    
+    main .upload_btn_wrapper .btn {
+        width: 334px;
+        height: 40px;
+        font-size: 24px;
+        position: absolute;
+        top: 335px;
+        left: 117px;
+      }
+      
+    main .upload_btn_wrapper .file_selected {
+        font-size: 16px;
+        position: absolute;
+        top: 346px;
+        left: 464px;
+      }
+      
+    main .team_box button{
+        width: 243px;
+        position: absolute;
+        top: 432px;
+        left: 278px;
+    }
+    
+    main .table_cont {
+        width: 800px;
+        height: 487px;
+        position: absolute;
+        top: calc((814 / 1391 * 100%));
+        left: 50%;
+        transform: translateX(-400px); 
+        margin-right: -400px; 
+    } 
+
+    main tbody tr:last-child {
+        display: none;
+    }
+
+    main .table_inline .img_mob {
+        display: none;
+    }
+
+    main .table_inline .img_desk {
+        display: flex;
+    }
+
+    main .table_inline .img_table {
+        display: flex;
+        width: 90px;
+        height: 115px;
+    }
+
+    main .table_inline .icon_trash img {
+        width: 25px;
+        height: 25px;
+    }
+    
+    main .table_cont thead tr {
+        margin-bottom: 31px;
+    }
+    
+    main .table_cont table th {
+        font-size: 30px;
+    }
+    
+    main .table_inline{
+        width: 800px;
+        height: 125px;
+        font-size: 24px;
+    }
+    
+    main .table_cont tbody tr td{
+        height: 81px;
+    }
+    
+    main .table_cont .table_inline > td:last-of-type{
+        border-right: none;
+    }
+
     /* Footer */
 
     footer .footer_cont {

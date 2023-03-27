@@ -149,8 +149,17 @@ main .login_cont {
     align-items: center;
     justify-content: center;
     position: relative;
-    background: url(../assets/image/Banner_Login.png);
     backdrop-filter: blur(2px);
+    background-size: cover;
+}
+
+main .login_cont video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 main .login_cont::before {
@@ -172,12 +181,14 @@ main .translucid_box {
     align-items: center;
     flex-direction: column;
     position: absolute;
-    top: 78px;
-    left: 20px;
+    top: calc((78 / 687 * 100%));
+    left: 50%;
+    transform: translateX(-167.5px); 
+    margin-right: -167.5px; 
     background: linear-gradient(112.07deg, rgba(27, 20, 38, 0.6) 0%, rgba(60, 3, 65, 0.38) 98.83%)padding-box, linear-gradient(113.27deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 98.78%)border-box;
     border: 1px solid transparent;
     border-image-slice: 1;
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(1px);
     border-radius: 8px;
 }
 
@@ -589,8 +600,4 @@ footer .copyright span {
     line-height: 24.34px;
     text-align: center;
     color: #FFFFFF;
-}
-
-
-
-  
+}  

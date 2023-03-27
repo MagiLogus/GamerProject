@@ -169,11 +169,18 @@
         margin-top: 0px;
         width: 100%;
         height: 680px;
-        background: url(../assets/image/Banner_Login_desktop.png);
         backdrop-filter: blur(2px);
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
+    } 
+
+    main .login_cont video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
     }
 
     main .translucid_box {
@@ -181,7 +188,9 @@
         height: 520px;
         position: absolute;
         top: 80px;
-        left: 320px;
+        left: 50%;
+        transform: translateX(-400px); 
+        margin-right: -400px; 
     }
 
     main .translucid_box h1{
@@ -360,5 +369,4 @@
     footer .footer_links a:hover {
         color: #f9aa01;
     }
-   
-    }
+}
