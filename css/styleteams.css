@@ -9,6 +9,7 @@
 .layout_grid {
     width: 90%;
     margin: 0 auto;
+    height: 100%;
 }
 
 .alignment_between_center {
@@ -316,7 +317,6 @@ main .table_cont {
 main .table_cont thead, tbody{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     width: 100%;
 }
 
@@ -324,6 +324,7 @@ main .table_cont thead tr {
     display: flex;
     margin-bottom: 29px;
     border-bottom: 3px solid #F9AA01;
+    padding-left: 0;
 }
 
 main .table_cont table, tr, td{
@@ -332,7 +333,6 @@ main .table_cont table, tr, td{
 
 main .table_cont table th {
     display: flex;
-    justify-content: center;
     align-items: center;
     width: 100%;
     height: 50px;
@@ -341,11 +341,13 @@ main .table_cont table th {
     text-transform: uppercase;
     text-shadow: 0 0 7px black;
     font-size: 20px;
+    padding-right: 5px;
 }
 
 main .table_inline{
     display: flex;
-    justify-content: space-between;
+    width: 100%;
+    justify-content: center;
     align-items: center;
     text-align: center;
     color: #ffffff;

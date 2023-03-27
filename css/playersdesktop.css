@@ -163,6 +163,126 @@
         color: #f9aa01;
     }
 
+    /* Players */
+
+    main .players_cont {
+        margin-top: 0px;
+        height: 1387px;
+    }
+
+    main .player_box {
+        width: 800px;
+        height: 670px;
+        position: absolute;
+        top: calc((82 / 1387 * 100%));
+        left: 50%;
+        transform: translateX(-400px); 
+        margin-right: -400px; 
+    }
+
+    main .player_box h1{
+        width: 471px;
+        font-size: 40px;
+        position: absolute;
+        top: 48px;
+        left: 164px;
+    }
+
+    main .player_box hr {
+        
+        width: 448px;
+        position: absolute;
+        top: 108px;
+        left: 176px;
+    }
+
+    main .player_box input, select {
+        width: 565px;
+    }
+
+    main .id_input {
+        position: absolute;
+        top: 185px;
+        left: 117px;
+    }
+
+    main .team_input {
+        position: absolute;
+        top: 264px;
+        left: 117px;
+    }
+
+    main .name_input {
+        position: absolute;
+        top: 343px;
+        left: 117px;
+    }
+
+    main .email_input {
+        position: absolute;
+        top: 422px;
+        left: 117px;
+    }
+
+    main .password_input {
+        position: absolute;
+        top: 501px;
+        left: 117px;
+    }
+
+    main .player_box button {
+        width: 243px;
+        position: absolute;
+        top: 580px;
+        left: 278px;
+    }
+
+    main .cont_table {
+        width: 800px;
+        height: 487px;
+        position: absolute;
+        top: calc((814 / 1387 * 100%));
+        left: 50%;
+        transform: translateX(-400px); 
+        margin-right: -400px;  
+    }
+
+    main .cont_table .table_inline {
+        width: 800px;
+        font-size: 24px;
+        height: 125px;
+    }
+
+    main .cont_table table th {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 50px;
+        color: #f9aa01;
+        font-family: "Titillium Web";
+        text-transform: uppercase;
+        text-shadow: 0 0 7px black;
+        font-size: 30px;
+        padding-right: 5px;
+    }
+
+    main .table_inline .icon_trash img {
+        width: 25px;
+        height: 25px;
+    }
+
+    main .table_inline:last-of-type {
+        display: none;
+    }
+
+    main .cont_table tbody tr td{
+        height: 81px;
+    }
+
+    main .cont_table .table_inline > td:last-of-type{
+        border-right: none;
+    }
+
     /* Footer */
 
     footer .footer_cont {

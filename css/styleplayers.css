@@ -139,6 +139,246 @@ header .header_botton .user_menu > a {
     right: 0px !important;
 }
 
+/* Main */
+
+main .page_cont{
+    margin-top: 60px;
+    height: 1231px;
+    backdrop-filter: blur(2px);
+    position: relative;
+}
+
+main .page_cont video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    z-index: 0;
+}
+
+main .team_box{
+    width: 335px;
+    height: 492px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: calc((78 / 1231 * 100%));
+    left: 50%;
+    transform: translateX(-167.5px); 
+    margin-right: -167.5px; 
+    background: linear-gradient(112.07deg, rgba(27, 20, 38, 0.6) 0%, rgba(60, 3, 65, 0.38) 98.83%)padding-box, linear-gradient(113.27deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 98.78%)border-box;
+    border: 1px solid transparent;
+    border-image-slice: 1;
+    backdrop-filter: blur(1px);
+    border-radius: 8px;
+}
+
+main .team_box h1{
+    width: 290px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 43px;
+    color: #ffffff;
+    text-transform: uppercase;
+    position: absolute;
+    top: calc((40 / 492 * 100%));
+    left: 50%;
+    transform: translateX(-145px); 
+    margin-right: -145px; 
+}
+
+main .team_box hr{
+    border: 3px solid #f9aa01;
+    width: 250px;
+    position: absolute;
+    top: calc((92 / 492 * 100%));
+    left: 50%;
+    transform: translateX(-125px); 
+    margin-right: -125px; 
+}
+
+main .team_box .team_id input {
+    width: 273px;
+    height: 40px;
+    display: flex;
+    background: linear-gradient(90deg, rgba(187, 170, 204, 0.9) 0%, rgba(217, 217, 217, 0) 103.86%)padding-box, linear-gradient(91.13deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%)border-box;
+    border: 1px solid transparent;    
+    border-image-slice: 1;
+    border-radius: 8px;
+    backdrop-filter: blur(3px);
+    position: absolute;
+    top: 167px;
+    left: 31px;
+    font-family: "Titillium Web";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: justify;
+    color: #ffffff;
+    padding-left: 14.37px;
+}
+
+main .team_box input::placeholder{
+    font-family: "Titillium Web";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: justify;
+    color: #ffffff;
+}
+
+main .team_box .team_name input {
+    width: 273px;
+    height: 40px;
+    display: inline-block;
+    background: linear-gradient(90deg, rgba(187, 170, 204, 0.9) 0%, rgba(217, 217, 217, 0) 103.86%)padding-box, linear-gradient(91.13deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%)border-box;
+    border: 1px solid transparent;    
+    border-image-slice: 1;
+    border-radius: 8px;
+    backdrop-filter: blur(3px);
+    position: absolute;
+    top: 231px;
+    left: 31px;
+    font-family: "Titillium Web";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: justify;
+    color: #ffffff;
+    padding-left: 14.37px;
+}
+
+main .upload_btn_wrapper .btn {
+    width: 124px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d9d9d9;
+    border-radius: 8px;
+    border: none;
+    font-family: "Titillium Web";
+    font-size: 13px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 20px;
+    position: absolute;
+    top: 295px;
+    left: 32px;
+  }
+  
+main .upload_btn_wrapper .file_selected {
+    font-family: "Titillium Web";
+    font-size: 10px;
+    color: #ffffff;
+    font-weight: 400;
+    position: absolute;
+    top: 307px;
+    left: 164px;
+  }
+  
+main .team_box button{
+    width: 268px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #f9aa01;
+    border: none;
+    font-family: "Titillium Web";
+    font-size: 24px;
+    font-weight: 700;
+    color: #1b1426;
+    position: absolute;
+    top: 384px;
+    left: 32px;
+}
+
+main .table_cont {
+    display: flex;
+    flex-direction: column;
+    width: 338px;
+    height: 405px;
+    position: absolute;
+    top: 710px;
+    left: 50%;
+    transform: translateX(-169px); 
+    margin-right: -169px; 
+}
+
+main .table_cont thead, tbody{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+main .cont_table thead tr {
+    display: flex;
+    margin-bottom: 29px;
+    border-bottom: 3px solid #F9AA01;
+    padding-left: 0;
+}
+
+main .table_cont table, tr, td{
+    border-collapse: collapse;
+}
+
+main .table_cont table th {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    color: #f9aa01;
+    font-family: "Titillium Web";
+    text-transform: uppercase;
+    text-shadow: 0 0 7px black;
+    font-size: 20px;
+    padding-right: 5px;
+}
+
+main .table_inline{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Titillium Web";
+    font-size: 20px;
+    height: 70px;
+    background: linear-gradient(112.07deg, rgba(27, 20, 38, 0.6) 0%, rgba(60, 3, 65, 0.38) 98.83%)padding-box, linear-gradient(113.27deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 98.78%)border-box;
+    border: 1px solid transparent;
+    border-image-slice: 1;
+    backdrop-filter: blur(1px);
+    border-radius: 8px;
+    margin-bottom: 15px; 
+}
+
+main .table_cont tbody tr td{
+    width: 100%;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 2px solid #F9AA01;
+}
+
+main .table_cont .table_inline > td:last-of-type{
+    border-right: none;
+}
+
+main .table_inline .img_desk {
+    display: none;
+}
+
 /* Players */
 
 main .players_cont {
@@ -156,7 +396,6 @@ main .players_cont video {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    object-position: bottom center;
     z-index: -1;
 }
 
@@ -352,12 +591,9 @@ main .cont_table tbody tr td{
     border-right: 2px solid #F9AA01;
 }
 
-
 main .cont_table .table_inline > td:last-of-type{
     border-right: none;
 }
-
-
 
 /* Footer */
 
@@ -454,7 +690,6 @@ footer .footer_links ul {
     align-self: center;
     position: absolute;
     margin-top: 43.08px; 
-    
 }
 
 footer .footer_links li {
