@@ -169,6 +169,7 @@ main .banner_desktop {
 main .banner_cont h1 {
     width: 290px;
     height: 61px;
+    display: flex;
     color: #ffffff;
     align-items: center;
     justify-content: center;
