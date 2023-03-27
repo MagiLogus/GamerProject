@@ -145,15 +145,22 @@ main .players_cont {
     margin-top: 60px;
     width: 100%;
     height: 1403px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(68,20,158,1) 50%, rgba(63,0,87,1) 100%);
     backdrop-filter: blur(2px);
+    position: relative;
 }
 
-main .registration_cont {
+main .players_cont video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: bottom center;
+    z-index: -1;
+}
+
+main .player_box {
     width: 335px;
     height: 650px;
     display: flex;
@@ -161,16 +168,18 @@ main .registration_cont {
     align-items: center;
     flex-direction: column;
     position: absolute;
-    top: 78px;
-    left: 20px;
+    top: calc((78 / 1231 * 100%));
+    left: 50%;
+    transform: translateX(-167.5px); 
+    margin-right: -167.5px; 
     background: linear-gradient(112.07deg, rgba(27, 20, 38, 0.6) 0%, rgba(60, 3, 65, 0.38) 98.83%)padding-box, linear-gradient(113.27deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 98.78%)border-box;
     border: 1px solid transparent;
     border-image-slice: 1;
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(1px);
     border-radius: 8px;
 }
 
-main .registration_cont h1{
+main .player_box h1{
     display: flex;
     justify-content: center;
     width: 286px;
@@ -187,7 +196,7 @@ main .registration_cont h1{
     left: 24px;
 }
 
-main .registration_cont hr {
+main .player_box hr {
     border: 3px solid #f9aa01;
     width: 250px;
     position: absolute;
@@ -195,7 +204,7 @@ main .registration_cont hr {
     left: 42px;
 }
 
-main .format input {
+main .player_box input, select {
     width: 273px;
     height: 40px;
     display: flex;
@@ -213,7 +222,7 @@ main .format input {
     padding-left: 14px;
 }
 
-main .format input::placeholder {
+main .player_box input::placeholder {
     font-family: "Titillium Web";
     font-style: normal;
     font-weight: 400;
@@ -234,6 +243,119 @@ main .team_input {
     left: 31px;
 }
 
+main .name_input {
+    position: absolute;
+    top: 324px;
+    left: 31px;
+}
+
+main .email_input {
+    position: absolute;
+    top: 388px;
+    left: 31px;
+}
+
+main .password_input {
+    position: absolute;
+    top: 452px;
+    left: 31px;
+}
+
+main .player_box button {
+    width: 273px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #f9aa01;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 37px;
+    position: absolute;
+    top: 541px;
+    left: 31px;
+}
+
+main .cont_table {
+    width: 339px;
+    height: 405px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: calc((868 / 1403 * 100%));
+    left: 50%;
+    transform: translateX(-169.5px); 
+    margin-right: -169.5px;  
+}
+
+main .cont_table thead, tbody{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+main .cont_table thead tr {
+    display: flex;
+    margin-bottom: 30px;
+    border-bottom: 3px solid #F9AA01;
+}
+
+main .cont_table table, tr, td{
+    border-collapse: collapse;
+}
+
+main .cont_table table th {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 64px;
+    height: 50px;
+    padding-left: 0;
+    color: #f9aa01;
+    font-family: "Titillium Web";
+    text-transform: uppercase;
+    text-shadow: 0 0 7px black;
+    font-size: 20px;
+}
+
+main .cont_table .table_inline {
+    width: 336px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Titillium Web";
+    font-size: 20px;
+    height: 70px;
+    background: linear-gradient(112.07deg, rgba(27, 20, 38, 0.6) 0%, rgba(60, 3, 65, 0.38) 98.83%)padding-box, linear-gradient(113.27deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 98.78%)border-box;
+    border: 1px solid transparent;
+    border-image-slice: 1;
+    backdrop-filter: blur(1px);
+    border-radius: 8px;
+    margin-bottom: 15px; 
+}
+
+main .cont_table tbody tr td{
+    width: 100%;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 2px solid #F9AA01;
+}
+
+
+main .cont_table .table_inline > td:last-of-type{
+    border-right: none;
+}
 
 
 
