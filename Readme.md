@@ -4,7 +4,7 @@
 <hr>
 
 <p align="center">
-   <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=RED&style=for-the-badge" #vitrinedev/>
+   <img src="http://img.shields.io/static/v1?label=STATUS&message=PROJETO%20DESENVOLVIDO&color=green&style=for-the-badge" #vitrinedev/>
 </p>
 
 ### Tópicos 
