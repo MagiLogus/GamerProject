@@ -58,7 +58,7 @@ A identidade visual do projeto foi criada e extraída do Figma, garantindo uma a
 
 ## Acesso à página
 
-Você pode [acessar a página do projeto](https://magilogus.github.io/GamerProject/). também é possível [acessar um modelo de alta fidelidade](https://www.figma.com/file/JfMPPyVEhQX6RGTSjm4i5z/Gamer-Project?t=fn5aQaiHI13M8dON-0) no Figma para visualização. 
+Você pode [acessar a página do projeto](https://magilogus.github.io/GamerProject/), sendo também é possível [acessar um modelo de alta fidelidade](https://www.figma.com/file/JfMPPyVEhQX6RGTSjm4i5z/Gamer-Project?t=fn5aQaiHI13M8dON-0) no Figma para visualização. 
 
 ## Desenvolvedor
 
