@@ -9,72 +9,63 @@
 ### Tópicos 
 
 - [Descrição do projeto](#descrição-do-projeto)
-
 - [Funcionalidades](#funcionalidades)
-
-- [Aplicação](#aplicação)
-
+- [Página](#página)
 - [Ferramentas utilizadas](#ferramentas-utilizadas)
-
-- [Acesso ao projeto](#acesso-ao-projeto)
-
-- [Abrir e rodar o projeto](#abrir-e-rodar-o-projeto)
-
-- [Desenvolvedores](#desenvolvedores)
+- [Acesso à página](#acesso-à-página)
+- [Desenvolvedor](#desenvolvedor)
 
 ## Descrição do projeto 
 
-<p align="justify">
- Projeto em desenvolvimento para disciplina Instrumentação Biomédica II do curso de Engenharia Biomédica. O GlicoCare é um sistema de telemonitoramento domiciliar para a atenção especializada de pessoas acometidas por diabetes mellitus.
+<div align="justify">
 
-O sistema permitirá o monitoramento diário, contínuo e remoto do nível de glicose no sangue (glicemia), possibilitando que familiares, cuidadores, profissionais da saúde ou o próprio paciente acompanhem o estado clínico do mesmo.
+ O projeto Gamer é uma aplicação web desenvolvida com HTML, CSS e JavaScript, utilizando técnicas de Flexbox, Grid Layout e Position aprendidas durante as aulas. A página inicial (Home) é o ponto de entrada para o conteúdo relacionado a jogos, jogadores, equipes, e outras seções, como Login e notícias, foram adicionadas para fornecer informações adicionais.
 
-![Descrição do projeto GlicoCare, onde se tem um paciente medindo glicose com um glicosímetro, conectado via Bluetooth ao aplicativo que o profissional da saúde tem acesso.](https://user-images.githubusercontent.com/37356058/132422764-5a4e5300-7b04-4411-9126-387a445bc627.png)
-</p>
+O site foi construído usando o modelo Mobile First, garantindo que ele seja totalmente responsivo em dispositivos móveis, e em seguida, foram adicionadas as media queries para desktop.
+
+A identidade visual do projeto foi criada e extraída do Figma, garantindo uma aparência consistente e alinhada com as expectativas do cliente. Em resumo, o projeto Gamer é um ótimo exemplo do uso de técnicas de desenvolvimento web avançadas para criar uma aplicação funcional e visualmente atraente.
+
+![Descrição do projeto Gamer, onde se tem uma imagem da página inicial.](/readme/ImagemDescrição.png)
+</div>
 
 ## Funcionalidades
 
-:heavy_check_mark: `Funcionalidade 1:` Realizar cadastro dos usuários, podendo ser paciente ou profissional de saúde.
+:heavy_check_mark: `Funcionalidade 1:` Menus criados com JavaScript: O site apresenta menus criados com JavaScript que aparecem ao clicar em um botão, permitindo a navegação fácil e intuitiva entre as diferentes seções do site.
 
-:heavy_check_mark: `Funcionalidade 2:` Armazenar dados do usuário, como glicemia, atividade física, alimentação, medicação, administração de insulina e peso no banco de dados na Cloud Firestore.
+:heavy_check_mark: `Funcionalidade 2:` Campos de preenchimento: O site também possui campos de preenchimento, que permitem aos usuários inserir informações, como nome de usuário e senha para fazer login.
 
-:heavy_check_mark: `Funcionalidade 3:` Plotar gráfico com histórico dos níveis glicêmicos do paciente.
+:heavy_check_mark: `Funcionalidade 3:` Vídeos de banner: O site apresenta vídeos de banner na página inicial, que são exibidos automaticamente e fornecem uma visão geral do conteúdo apresentado no site.
 
-:heavy_check_mark: `Funcionalidade 4:` Chat com entre o paciente e profissional da saúde.
+:heavy_check_mark: `Funcionalidade 4:` Efeitos visuais: O site possui efeitos de transição e sombreamento que foram aplicados em diversos elementos interativos, como menus, botões e links.
 
-## Aplicação
+## Página 
 
 <div align="center">
 
-![Android Emulator](https://user-images.githubusercontent.com/37356058/135944390-ec96d4ec-ee43-4db9-882f-89be66aad23a.gif)
+![Página do Projeto](https://user-images.githubusercontent.com/37356058/135944390-ec96d4ec-ee43-4db9-882f-89be66aad23a.gif)
 
   </div>
 
-###
-
 ## Ferramentas utilizadas
 
-<a href="https://www.java.com" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> 
+![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
 
-<a href="https://developer.android.com/studio" target="_blank"> <img src="https://developer.android.com/images/logos/android.svg" alt="androidStudio" width="40" height="40"/> </a> <a href="https://firebase.google.com/?hl=pt" target="_blank"> <img src="https://www.gstatic.com/mobilesdk/160503_mobilesdk/logo/2x/firebase_96dp.png" alt="firebase" width="40" height="40"/> </a>
+![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
-###
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 
-## Acesso ao projeto
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
-Você pode [acessar o código fonte do projeto](https://github.com/camilafernanda/GlicoCare) ou [baixá-lo](https://github.com/camilafernanda/GlicoCare/archive/refs/heads/main.zip).
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
-## Abrir e rodar o projeto
+## Acesso à página
 
-Após baixar o projeto, você pode abrir com o `Android Studio`. Para isso, na tela de launcher clique em:
+Você pode [acessar a página do projeto](https://magilogus.github.io/GamerProject/).
 
-- `Open an Existing Project` (ou alguma opção similar);
-- Procure o local onde o projeto está e o selecione (Caso o projeto seja baixado via zip, é necessário extraí-lo antes de procurá-lo);
-- Por fim clique em `OK`.
+## Desenvolvedor
 
-O `Android Studio` deve executar algumas tasks do *Gradle* para configurar o projeto, aguarde até finalizar. Ao finalizar as tasks, você pode executar o App 🏆 
+| [<img src="https://avatars.githubusercontent.com/u/125275514?v=4" width=115><br><sub>Paulo Gonçalves</sub>](https://github.com/MagiLogus) | 
+| :---: | 
 
-## Desenvolvedores
 
-| [<img src="https://avatars.githubusercontent.com/u/37356058?v=4" width=115><br><sub>Camila Fernanda Alves</sub>](https://github.com/camilafernanda) |  [<img src="https://avatars.githubusercontent.com/u/38091359?v=4" width=115><br><sub>Clóvis Ribeiro Júnior</sub>](https://github.com/crovim)  |
-| :---: | :---: 
+[def]: #
