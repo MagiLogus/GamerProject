@@ -19,11 +19,11 @@
 
 <div align="justify">
 
- O projeto Gamer é uma aplicação web desenvolvida com HTML, CSS e JavaScript, utilizando técnicas de Flexbox, Grid Layout e Position aprendidas durante as aulas. A página inicial (Home) é o ponto de entrada para o conteúdo relacionado a jogos, jogadores, equipes, e outras seções, como Login e notícias, foram adicionadas para fornecer informações adicionais.
+ O projeto Gamer é um web site desenvolvida com HTML, CSS e JavaScript, utilizando técnicas de Flexbox, Grid Layout e Position aprendidas durante as aulas. A página inicial (Home) é o ponto de entrada para o conteúdo relacionado a jogos, jogadores, equipes, e outras seções, como Login e notícias, foram adicionadas para fornecer informações adicionais.
 
 O site foi construído usando o modelo Mobile First, garantindo que ele seja totalmente responsivo em dispositivos móveis, e em seguida, foram adicionadas as media queries para desktop.
 
-A identidade visual do projeto foi criada e extraída do Figma, garantindo uma aparência consistente e alinhada com as expectativas do cliente. Em resumo, o projeto Gamer é um ótimo exemplo do uso de técnicas de desenvolvimento web avançadas para criar uma aplicação funcional e visualmente atraente.
+A identidade visual do projeto foi criada e extraída do Figma, garantindo uma aparência consistente e alinhada com as expectativas do cliente. Em resumo, o projeto Gamer é um ótimo exemplo do uso de técnicas avançadas para criar um site funcional e visualmente atraente.
 
 ![Descrição do projeto Gamer, onde se tem uma imagem da página inicial.](/readme/ImagemDescrição.png)
 </div>
