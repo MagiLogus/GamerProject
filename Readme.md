@@ -48,7 +48,7 @@ A identidade visual do projeto foi criada e extraída do Figma, garantindo uma a
 
 ## Ferramentas utilizadas
 
-<div style="display: flex; justify-content:space-between;">
+<div align="left">
 
 ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
 
