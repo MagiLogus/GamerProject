@@ -42,7 +42,7 @@ A identidade visual do projeto foi criada e extraída do Figma, garantindo uma a
 
 <div align="center">
 
-![Página do Projeto](https://user-images.githubusercontent.com/37356058/135944390-ec96d4ec-ee43-4db9-882f-89be66aad23a.gif)
+![Página do Projeto](/readme/homeMobile.gif)
 
   </div>
 
